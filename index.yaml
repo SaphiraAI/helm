@@ -3,6 +3,16 @@ entries:
   agent:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-09T21:22:46.742200252Z"
+    description: A Helm chart for Agent
+    digest: ae64f4d9e278a667f86cd4015927a75ab44224d7f2a48d078582b50aeee13df2
+    name: agent
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/agent-0.1.2/agent-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-09T17:41:38.45396021Z"
     description: A Helm chart for Agent
     digest: 0786058dd86417c53f9ea8776c4656633c6fcf59ab45096ed6a38ad168188eb2
@@ -14,6 +24,16 @@ entries:
   async-workflow-service:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-09T21:22:46.894761133Z"
+    description: A Helm chart for Kubernetes
+    digest: 76433c827eb10afb8d74326309fdb943e92d7f42b83e3bf54eb248ecbfe9281a
+    name: async-workflow-service
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/async-workflow-service-0.1.5/async-workflow-service-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-09T17:41:38.583121918Z"
     description: A Helm chart for Kubernetes
     digest: 72a5f57082533db707bef5aa6bb8d2ac6b74fa42dc295723cc79a4a9399e1bf4
@@ -22,7 +42,28 @@ entries:
     urls:
     - https://github.com/SaphiraAI/helm/releases/download/async-workflow-service-0.1.4/async-workflow-service-0.1.4.tgz
     version: 0.1.4
+  saphira-gpt:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-09T21:22:47.03121726Z"
+    description: A Helm chart for Saphira GPT
+    digest: 69a4af892f37ed57e6f6a6aabb709bf07a2d3ce0d02eba10cfbd450aa4bc77c5
+    name: saphira-gpt
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/saphira-gpt-0.1.3/saphira-gpt-0.1.3.tgz
+    version: 0.1.3
   saphira-server:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-09T21:22:47.312403951Z"
+    description: A Helm chart for Saphira Server
+    digest: 61dcf8b23c3760ee20960a941fbda1c95ac890b607bedd7878df443c5ee8bfb8
+    name: saphira-server
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.7/saphira-server-0.1.7.tgz
+    version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-06-09T18:14:50.995753715Z"
@@ -43,4 +84,4 @@ entries:
     urls:
     - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.5/saphira-server-0.1.5.tgz
     version: 0.1.5
-generated: "2025-06-09T18:14:50.99576161Z"
+generated: "2025-06-09T21:22:47.312425913Z"
