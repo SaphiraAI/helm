@@ -126,6 +126,16 @@ entries:
   saphira-server:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-09T22:20:54.890012909Z"
+    description: A Helm chart for Saphira Server
+    digest: 7c3bcf56cb1ddab4ac89d82f7a8bd4462b496147583f40991135bcaecfb6c3cd
+    name: saphira-server
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.11/saphira-server-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-09T22:13:55.638828442Z"
     description: A Helm chart for Saphira Server
     digest: bd760d2c24184013eaf0660ee1aeafa68ee885738fc0baebd4405d24ebbe5eed
@@ -184,4 +194,4 @@ entries:
     urls:
     - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.5/saphira-server-0.1.5.tgz
     version: 0.1.5
-generated: "2025-06-09T22:13:55.638912039Z"
+generated: "2025-06-09T22:20:54.890066649Z"
