@@ -3,6 +3,16 @@ entries:
   agent:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-09T23:46:29.305696641Z"
+    description: A Helm chart for Agent
+    digest: d656298052a420f2e792fde05aa4e325e1ccccf9b6394561ef5ad4045f38f1de
+    name: agent
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/agent-0.1.5/agent-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-09T22:13:55.033263082Z"
     description: A Helm chart for Agent
     digest: 593353d3ca6b006b793a30aa5e0b07c1007be15b440f9dea7cd6b26f36ae3824
@@ -224,4 +234,4 @@ entries:
     urls:
     - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.5/saphira-server-0.1.5.tgz
     version: 0.1.5
-generated: "2025-06-09T22:36:50.790403121Z"
+generated: "2025-06-09T23:46:29.305769637Z"
