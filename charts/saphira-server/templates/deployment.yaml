@@ -27,8 +27,6 @@ spec:
           {{- end }}
           image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command:
-            {{- toYaml .Values.image.command | nindent 12 }}
           ports:
             - name: http
               containerPort: {{ .Values.service.targetPort }}
