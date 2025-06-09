@@ -61,20 +61,7 @@ service:
 
 # This block is for setting up the ingress for more information can be found here: https://kubernetes.io/docs/concepts/services-networking/ingress/
 ingress:
-  enabled: true
-  className: "traefik"
-  annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: web,websecure
-    traefik.ingress.kubernetes.io/router.tls.certresolver: le
-  hosts:
-    - host: saphira.flakery.xyz
-      paths:
-        - path: /
-          pathType: Prefix
-  tls: 
-    - hosts:
-        - saphira.flakery.xyz
-  host: saphira.flakery.xyz
+  enabled: false
 
 
 resources: {}

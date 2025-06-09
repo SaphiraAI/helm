@@ -62,21 +62,7 @@ service:
 
 # This block is for setting up the ingress for more information can be found here: https://kubernetes.io/docs/concepts/services-networking/ingress/
 ingress:
-  enabled: true
-  className: "traefik"
-  annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: web,websecure
-    traefik.ingress.kubernetes.io/router.tls.certresolver: le
-  hosts:
-    - host: async-workflow-svc.flakery.xyz
-      paths:
-        - path: /
-          pathType: Prefix
-  tls: 
-    - hosts:
-        - async-workflow-svc.flakery.xyz
-  host: async-workflow-svc.flakery.xyz
-
+  enabled: false
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

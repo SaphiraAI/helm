@@ -9,11 +9,10 @@ replicaCount: 1
 
 # This sets the container image more information can be found here: https://kubernetes.io/docs/concepts/containers/images/
 image:
-  repository: 403744559720.dkr.ecr.us-west-2.amazonaws.com/saphira-backend
-  # This sets the pull policy for images.
+  repository: 403744559720.dkr.ecr.us-west-2.amazonaws.com/agents
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: d5a900d28d6a2408113c59691ae47a67d793ba17
+  tag: b0eec2c3b36522b57a3e1392a34771dce72dee87
 
 
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
