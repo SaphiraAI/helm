@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  agent:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-09T17:41:38.45396021Z"
+    description: A Helm chart for Agent
+    digest: 0786058dd86417c53f9ea8776c4656633c6fcf59ab45096ed6a38ad168188eb2
+    name: agent
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/agent-0.1.1/agent-0.1.1.tgz
+    version: 0.1.1
+  async-workflow-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-09T17:41:38.583121918Z"
+    description: A Helm chart for Kubernetes
+    digest: 72a5f57082533db707bef5aa6bb8d2ac6b74fa42dc295723cc79a4a9399e1bf4
+    name: async-workflow-service
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/async-workflow-service-0.1.4/async-workflow-service-0.1.4.tgz
+    version: 0.1.4
+  saphira-server:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-09T17:41:38.708985988Z"
+    description: A Helm chart for Saphira Server
+    digest: c0e9cf118b0431c52e26a0b545901d48273c0848966db4731e66f9e5c8653dec
+    name: saphira-server
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.5/saphira-server-0.1.5.tgz
+    version: 0.1.5
+generated: "2025-06-09T17:41:38.70899743Z"
