@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.appName }}
+  labels:
+    {{- include "http.labels" . | nindent 4 }}
+    app: {{ .Values.appName }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Values.appName }}
+  template:
+    metadata:
+      {{- with .Values.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        app: {{ .Values.appName }}
+    spec:
+
+    
+      containers:
+        - name: {{ .Values.appName }}
+          {{- with .Values.securityContext }}
+          securityContext:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          command:
+            {{- toYaml .Values.image.command | nindent 12 }}
+          ports:
+            - name: http
+              containerPort: {{ .Values.service.targetPort }}
+          envFrom:
+          - secretRef:
+              name: {{ .Values.appName }}
+          volumeMounts:
+            - name: {{ .Values.appName }}-chroma-storage
+              mountPath: /data/chroma
+      volumes:
+        - name: {{ .Values.appName }}-chroma-storage
+          persistentVolumeClaim:
+            claimName: {{ .Values.appName }}-chroma-pvc
