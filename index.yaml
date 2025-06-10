@@ -3,6 +3,16 @@ entries:
   agent:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-10T01:20:59.067323834Z"
+    description: A Helm chart for Agent
+    digest: f88afc730a1b531c8c608a18ad718c2d69773227c17f8481e87ab892bd98b664
+    name: agent
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/agent-0.1.8/agent-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-10T00:47:22.837927672Z"
     description: A Helm chart for Agent
     digest: 0a15ad9a4e19aeb31e92e21355359e2990f49dc284472b43201b14d679b13a87
@@ -74,6 +84,16 @@ entries:
   async-workflow-service:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-10T01:20:59.190239204Z"
+    description: A Helm chart for Kubernetes
+    digest: 1724c4a90b2316fc53423322b14ed63105390a48452937a7dce833b3d08e797e
+    name: async-workflow-service
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/async-workflow-service-0.1.10/async-workflow-service-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-10T00:47:23.053214823Z"
     description: A Helm chart for Kubernetes
     digest: e02fe4a9d9d6eb6fdeb7c0295d13a7f19aff6d47455d0332d48b11bd7aa1002e
@@ -135,6 +155,16 @@ entries:
   saphira-gpt:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-10T01:20:59.304971104Z"
+    description: A Helm chart for Saphira GPT
+    digest: 581dc4dcd011c87c225a2f02e9c2bd887ccaf4ae398bd2927b6e469d89c6bca2
+    name: saphira-gpt
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/saphira-gpt-0.1.9/saphira-gpt-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-10T00:47:23.244432044Z"
     description: A Helm chart for Saphira GPT
     digest: 2c7c583779fed7b99ba9b35b5d393251aa2b95c5ca45b08cc7983e5bb1ce64ba
@@ -194,6 +224,16 @@ entries:
     - https://github.com/SaphiraAI/helm/releases/download/saphira-gpt-0.1.3/saphira-gpt-0.1.3.tgz
     version: 0.1.3
   saphira-server:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-10T01:20:59.421630975Z"
+    description: A Helm chart for Saphira Server
+    digest: a4ce69a8c00ca9f2be449050c05e5c5cde0abf8126306f8c2d152ba1718ca40a
+    name: saphira-server
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.18/saphira-server-0.1.18.tgz
+    version: 0.1.18
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-06-10T00:33:59.465148247Z"
@@ -324,4 +364,4 @@ entries:
     urls:
     - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.5/saphira-server-0.1.5.tgz
     version: 0.1.5
-generated: "2025-06-10T00:47:23.244575653Z"
+generated: "2025-06-10T01:20:59.42184307Z"
