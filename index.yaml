@@ -3,6 +3,16 @@ entries:
   agent:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-10T00:47:22.837927672Z"
+    description: A Helm chart for Agent
+    digest: 0a15ad9a4e19aeb31e92e21355359e2990f49dc284472b43201b14d679b13a87
+    name: agent
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/agent-0.1.7/agent-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-10T00:25:02.164222438Z"
     description: A Helm chart for Agent
     digest: 9ca922ecc046e8a65866c8c18e99a3b468029dc81e0a5798795483e7e99b6979
@@ -64,6 +74,16 @@ entries:
   async-workflow-service:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-10T00:47:23.053214823Z"
+    description: A Helm chart for Kubernetes
+    digest: e02fe4a9d9d6eb6fdeb7c0295d13a7f19aff6d47455d0332d48b11bd7aa1002e
+    name: async-workflow-service
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/async-workflow-service-0.1.9/async-workflow-service-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-10T00:25:02.312990284Z"
     description: A Helm chart for Kubernetes
     digest: b15e71119f430f33ce08f1fd7433210cad074af8aa4e356695b89101ef4f6586
@@ -113,6 +133,16 @@ entries:
     - https://github.com/SaphiraAI/helm/releases/download/async-workflow-service-0.1.4/async-workflow-service-0.1.4.tgz
     version: 0.1.4
   saphira-gpt:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-10T00:47:23.244432044Z"
+    description: A Helm chart for Saphira GPT
+    digest: 2c7c583779fed7b99ba9b35b5d393251aa2b95c5ca45b08cc7983e5bb1ce64ba
+    name: saphira-gpt
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/saphira-gpt-0.1.8/saphira-gpt-0.1.8.tgz
+    version: 0.1.8
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-06-10T00:25:02.433116029Z"
@@ -294,4 +324,4 @@ entries:
     urls:
     - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.5/saphira-server-0.1.5.tgz
     version: 0.1.5
-generated: "2025-06-10T00:33:59.465277197Z"
+generated: "2025-06-10T00:47:23.244575653Z"
