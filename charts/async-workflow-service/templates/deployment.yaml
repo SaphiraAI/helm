@@ -44,7 +44,7 @@ spec:
           envFrom:
           - secretRef:
               name: {{ .Values.appName }}
-          voluemMounts:
+          volumeMounts:
             - name: {{ .Values.appName }}
               mountPath: /app/logs/web
         
