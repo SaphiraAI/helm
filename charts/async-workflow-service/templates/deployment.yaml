@@ -23,7 +23,7 @@ spec:
         - name: {{ .Values.appName }}
           persistentVolumeClaim:
             claimName: {{ .Values.appName }}
-    
+      imagePullSecrets: {{ .Values.imagePullSecrets }}
       containers:
         - name: {{ .Values.appName }}
           {{- with .Values.securityContext }}
