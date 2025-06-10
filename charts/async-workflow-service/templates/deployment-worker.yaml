@@ -18,7 +18,11 @@ spec:
       {{- end }}
       labels:
         app: {{ .Values.appName }}-worker
-    spec:    
+    spec: 
+      {{- if .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml .Values.imagePullSecrets | nindent 8 }}
+      {{- end }}   
       containers:
         - name: {{ .Values.appName }}-worker
           {{- with .Values.securityContext }}

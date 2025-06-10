@@ -19,7 +19,10 @@ spec:
       labels:
         app: {{ .Values.appName }}
     spec:
-      imagePullSecrets: {{ .Values.imagePullSecrets }}
+      {{- if .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml .Values.imagePullSecrets | nindent 8 }}
+      {{- end }}
       containers:
         - name: {{ .Values.appName }}
           {{- with .Values.securityContext }}
