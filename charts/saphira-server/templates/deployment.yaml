@@ -41,8 +41,13 @@ spec:
           volumeMounts:
             - name: {{ .Values.appName }}
               mountPath: /data/{{ .Values.appName }}
+            - name: {{ .Values.appName }}-appdata
+              mountPath: /app/data
       volumes:
         - name: {{ .Values.appName }}
           persistentVolumeClaim:
             claimName: {{ .Values.appName }}
+        - name: {{ .Values.appName }}-appdata
+          persistentVolumeClaim:
+            claimName: {{ .Values.appName }}-appdata
         
