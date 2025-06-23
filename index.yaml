@@ -94,6 +94,16 @@ entries:
   async-workflow-service:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-23T15:24:10.393964389Z"
+    description: A Helm chart for Kubernetes
+    digest: 09a6665f61ee305fd63b231812d77cc814783bde7b0db521a4d540ed3de24288
+    name: async-workflow-service
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/async-workflow-service-0.1.13/async-workflow-service-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-10T01:55:05.667947862Z"
     description: A Helm chart for Kubernetes
     digest: b6e44ed8789f55bfb5d1c1e03dbe67a27120129e25926d9705eac4bb29e39111
@@ -286,6 +296,16 @@ entries:
   saphira-server:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-23T15:24:10.52738376Z"
+    description: A Helm chart for Saphira Server
+    digest: 6babdb1428c74b1c88654be5ece09b086da5a39ee069afb54e1ad3c7d9b8dea9
+    name: saphira-server
+    type: application
+    urls:
+    - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.21/saphira-server-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-15T19:36:48.342178331Z"
     description: A Helm chart for Saphira Server
     digest: 826a3755d092ecc0b0d67ff2861430bd8166e3e838f0198cd90e049065f77b44
@@ -444,4 +464,4 @@ entries:
     urls:
     - https://github.com/SaphiraAI/helm/releases/download/saphira-server-0.1.5/saphira-server-0.1.5.tgz
     version: 0.1.5
-generated: "2025-06-16T23:48:11.54072226Z"
+generated: "2025-06-23T15:24:10.527808424Z"
